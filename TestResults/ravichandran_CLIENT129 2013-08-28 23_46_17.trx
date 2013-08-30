@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="055b4a7f-59eb-40a4-ba26-b04a9ae11fdd" name="ravichandran@CLIENT129 2013-08-28 23:46:17" runUser="DOTCOM\ravichandran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6f210762-3709-41ba-a7b0-70384587b861">
+    <Deployment runDeploymentRoot="ravichandran_CLIENT129 2013-08-28 23_46_17">
+      <DeploymentItem filename="E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\TestProgram\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-28T23:46:17.7694235+05:30" queuing="2013-08-28T23:46:25.7734235+05:30" start="2013-08-28T23:46:26.0824235+05:30" finish="2013-08-28T23:46:26.8224235+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestFareCalculation" storage="e:\user home\developers\ravichandran\currentproject\proposals\metered rate of fare\testprogram\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="e55646cd-2d93-f05b-3c2e-d909e3c0d1cc">
+      <Execution id="525423c3-e6ab-4a57-ac17-ea9cb3aba70a" />
+      <TestMethod codeBase="E:/User Home/Developers/Ravichandran/CurrentProject/Proposals/Metered Rate of Fare/TestProgram/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.UnitTestFareCalculation, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestFareCalculation" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="e55646cd-2d93-f05b-3c2e-d909e3c0d1cc" executionId="525423c3-e6ab-4a57-ac17-ea9cb3aba70a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="525423c3-e6ab-4a57-ac17-ea9cb3aba70a" testId="e55646cd-2d93-f05b-3c2e-d909e3c0d1cc" testName="TestFareCalculation" computerName="CLIENT129" duration="00:00:00.0245069" startTime="2013-08-28T23:46:26.2294235+05:30" endTime="2013-08-28T23:46:26.7644235+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="525423c3-e6ab-4a57-ac17-ea9cb3aba70a">
+      <Output>
+        <StdOut>Total Fare: 9.75</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
