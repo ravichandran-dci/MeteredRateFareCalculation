@@ -1,0 +1,42 @@
+﻿<Window x:Class="MeteredRateFareCalculation.Report"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:m="clr-namespace:MeteredRateFareCalculation.Utility"
+        Title="Fare Report" Height="380" Width="550" MinHeight="300" MinWidth="550" WindowStartupLocation="CenterScreen" Opacity="0.8">
+
+    <Grid Margin="2" Background="Tan">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="42*" />
+            <RowDefinition Height="60*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="391*" />
+            <ColumnDefinition Width="133*" />
+        </Grid.ColumnDefinitions>
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Name="lblMinimumFare">Minimum Fare :</TextBlock>
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="1" Name="lblMinutesFare">Fare for {0} minutes traveled at 12 mph or above :</TextBlock>
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="2" Name="lblMilesFare">Fare for {0} miles traveled while traveling below 12 mph :</TextBlock>
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="3" Text="Night Surcharge :" Name="lblNightSurcharge" />
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="4" Text="Peak hour Weekday Surcharge :" Name="lblPeakHourSurcharge" />
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="5" Text="New York State Tax Surcharge :" Name="lblNewYorkSurcharge" />
+        <TextBlock Style="{StaticResource SideLabelControlStyle}" Grid.Row="6" Text="Total Fare :" HorizontalAlignment="Right" Name="lblTotalFare" Foreground="CornflowerBlue" FontWeight="Bold" />
+
+        <Button Content="Close" Grid.Row="8" Name="btnClose" Click="btnClose_Click" HorizontalAlignment="Center" HorizontalContentAlignment="Center" Margin="221,5,88,5" Width="82" Height="35" />
+
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Column="1" Name="lblMinimumFareValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="1" Grid.Column="1" Name="lblMinutesFareValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="2" Grid.Column="1" Name="lblMilesFareValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="3" Grid.Column="1" Name="lblNightSurchargeValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="4" Grid.Column="1" Name="lblPeakHourSurchargeValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="5" Grid.Column="1" Name="lblNewYorkSurchargeValue">{0} $</TextBlock>
+        <TextBlock Style="{StaticResource ReportValueStyle}" Grid.Row="6" Grid.Column="1" Name="lblTotalFareValue" Foreground="CornflowerBlue" FontWeight="Bold">{0} $</TextBlock>
+
+    </Grid>
+</Window>

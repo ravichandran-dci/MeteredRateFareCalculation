@@ -65,6 +65,7 @@ namespace MeteredRateFareCalculation
             objTravel.JourneyStartTime = DateTime.Now.ToString("HH:mm");
             this.DataContext = objTravel;
 
+            txtNumberOfminutes.Focus();
         }
         /// <summary>
         /// Handles Calculate button click event.
@@ -80,13 +81,10 @@ namespace MeteredRateFareCalculation
             else
             {
                 Travel objTravel = this.DataContext as Travel;
-                Double totalFare = objTravel.CalculateFare();
-                MessageBox.Show("Total Fare: " + totalFare.ToString());
-                //using (Travel objTravel = new Travel(5, 2, DateTime.Now.AddHours(-4)))
-                //{
-                //    Double totalFare = objTravel.CalculateFare();
-                //    MessageBox.Show("Total Fare: " + totalFare.ToString());
-                //}
+                Fare objFare = objTravel.CalculateFare();
+
+                Report objReport = new Report(objFare, (objTravel.NumberOfMilesTraveled == null ? 0 : (Int32)objTravel.NumberOfMilesTraveled), (objTravel.NumberOfMinutesTraveled == null ? 0 : (Int32)objTravel.NumberOfMinutesTraveled));
+                objReport.ShowDialog();
             }
         }
         #endregion

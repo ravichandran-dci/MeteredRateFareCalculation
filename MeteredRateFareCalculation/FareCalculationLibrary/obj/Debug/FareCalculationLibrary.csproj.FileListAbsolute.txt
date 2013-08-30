@@ -2,3 +2,7 @@ C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFar
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.pdb
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.dll
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.dll

@@ -39,10 +39,14 @@ namespace TestFareCalculation
         {
             DateTime dtStart = DateTime.Parse("2010-10-08 5:30 pm");
             Travel target = new Travel(5, 2, dtStart.Date, dtStart.ToString("HH:mm"));
-            double expected = 9.25F;
-            double actual;
-            actual = target.CalculateFare();
-            Assert.AreEqual(expected, actual);
+            Fare expectedFare = new Fare(3,3.5,1.75,0,1,0.5);
+            Fare actualFare = target.CalculateFare();
+            Assert.AreEqual(expectedFare.MinimumFare, actualFare.MinimumFare);
+            Assert.AreEqual(expectedFare.OneFifthOfMileFare, actualFare.OneFifthOfMileFare);
+            Assert.AreEqual(expectedFare.AdditionalFare, actualFare.AdditionalFare);
+            Assert.AreEqual(expectedFare.NightSurcharge, actualFare.NightSurcharge);
+            Assert.AreEqual(expectedFare.PeakHourSurcharge, actualFare.PeakHourSurcharge);
+            Assert.AreEqual(expectedFare.NewyorkStateTaxSurcharge, actualFare.NewyorkStateTaxSurcharge);
         }
 
         /// <summary>

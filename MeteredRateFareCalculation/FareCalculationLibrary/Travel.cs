@@ -133,7 +133,7 @@ namespace FareCalculationLibrary
             get
             {
                 DateTime startDateTime = (JourneyStartDateTime == null ? DateTime.Now : (DateTime)JourneyStartDateTime);
-                if (startDateTime.CompareTo(startDateTime.Date.Add(GlobalConstants.NightTimeStart)) >= 0 || startDateTime.CompareTo(startDateTime.Date.Add(GlobalConstants.NightTimeEnd)) < 0)
+                if (startDateTime.Date.Add(TimeSpan.Parse(JourneyStartTime)).CompareTo(startDateTime.Date.Add(GlobalConstants.NightTimeStart)) >= 0 || startDateTime.Date.Add(TimeSpan.Parse(JourneyStartTime)).CompareTo(startDateTime.Date.Add(GlobalConstants.NightTimeEnd)) < 0)
                 { return GlobalConstants.NightSurcharge; }
                 else
                 { return 0; }
@@ -149,7 +149,7 @@ namespace FareCalculationLibrary
                 DateTime startDateTime = (JourneyStartDateTime == null ? DateTime.Now : (DateTime)JourneyStartDateTime);
                 if (startDateTime.DayOfWeek != DayOfWeek.Saturday && startDateTime.DayOfWeek != DayOfWeek.Sunday)
                 {
-                    if (startDateTime.CompareTo(startDateTime.Date.Add(GlobalConstants.WeekdayPeekHourTimeStart)) >= 0 && startDateTime.CompareTo(startDateTime.Date.Add(GlobalConstants.WeekdayPeekHourTimeEnd)) < 0)
+                    if (startDateTime.Date.Add(TimeSpan.Parse(JourneyStartTime)).CompareTo(startDateTime.Date.Add(GlobalConstants.WeekdayPeekHourTimeStart)) >= 0 && startDateTime.Date.Add(TimeSpan.Parse(JourneyStartTime)).CompareTo(startDateTime.Date.Add(GlobalConstants.WeekdayPeekHourTimeEnd)) < 0)
                     { return GlobalConstants.WeekdayPeekHourSurcharge; }
                     else { return 0; }
                 }
@@ -162,9 +162,11 @@ namespace FareCalculationLibrary
         /// <summary>
         /// Calculates the total fare including surcharge.
         /// </summary>
-        public Double CalculateFare()
+        public Fare CalculateFare()
         {
-            return GlobalConstants.StartFare + OneFifthOfMileFare + AdditionalFare + NightSurcharge + PeakHourSurcharge + GlobalConstants.NewyorkStateTaxSurcharge;
+            Fare objFare = new Fare(GlobalConstants.StartFare, OneFifthOfMileFare, AdditionalFare, NightSurcharge, PeakHourSurcharge, GlobalConstants.NewyorkStateTaxSurcharge);
+
+            return objFare;
         }
         #endregion
 

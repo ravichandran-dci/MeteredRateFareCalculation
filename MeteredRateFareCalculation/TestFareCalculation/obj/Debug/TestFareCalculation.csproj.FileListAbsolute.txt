@@ -9,3 +9,14 @@ C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFar
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.csprojResolveAssemblyReference.cache
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.dll
 C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.csprojResolveAssemblyReference.cache
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\TestFareCalculation.dll
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\TestFareCalculation.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\FareCalculationLibrary.dll
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\MeteredRateFareCalculation.exe
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\FareCalculationLibrary.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\MeteredRateFareCalculation.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\MeteredRateFareCalculation_Accessor.exe
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\bin\Debug\MeteredRateFareCalculation_Accessor.pdb
+E:\User Home\Developers\Ravichandran\CurrentProject\Proposals\Metered Rate of Fare\OnlineGitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\obj\Debug\TestFareCalculation.dll

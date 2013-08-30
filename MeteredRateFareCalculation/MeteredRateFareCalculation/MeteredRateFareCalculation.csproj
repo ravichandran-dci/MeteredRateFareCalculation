@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Report.xaml.cs">
+      <DependentUpon>Report.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Utility\MaskTextBox.cs" />
     <Page Include="FareCalculation.xaml">
       <Generator>MSBuild:Compile</Generator>
@@ -67,6 +70,10 @@
     <Compile Include="FareCalculation.xaml.cs">
       <DependentUpon>FareCalculation.xaml</DependentUpon>
     </Compile>
+    <Page Include="Report.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Themes\InputControls.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
