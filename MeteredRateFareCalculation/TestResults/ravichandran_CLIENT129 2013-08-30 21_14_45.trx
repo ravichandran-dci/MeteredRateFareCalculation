@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4c7eceb0-ac59-47e2-ae5f-426ed3e7e3d6" name="ravichandran@CLIENT129 2013-08-30 21:14:45" runUser="DOTCOM\ravichandran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="ebd8c120-8f47-4ec1-adec-3f96a9bbe7b8">
+    <Deployment runDeploymentRoot="ravichandran_CLIENT129 2013-08-30 21_14_45">
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\MeteredRateFareCalculation\bin\Debug\MeteredRateFareCalculation.exe" />
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-30T21:14:45.1563439+05:30" queuing="2013-08-30T21:14:46.3013261+05:30" start="2013-08-30T21:14:46.3313255+05:30" finish="2013-08-30T21:14:46.6813185+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateFareTest" storage="c:\users\ravichandran\documents\github\meteredratefarecalculation\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="87110abc-3daf-38f1-9ea0-6fc93f19d6a1">
+      <Execution id="093d1eb1-866a-496e-a38c-dfbf5b4231c4" />
+      <TestMethod codeBase="C:/Users/ravichandran/Documents/GitHub/MeteredRateFareCalculation/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.TravelTest, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateFareTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" executionId="093d1eb1-866a-496e-a38c-dfbf5b4231c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="093d1eb1-866a-496e-a38c-dfbf5b4231c4" testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" testName="CalculateFareTest" computerName="CLIENT129" duration="00:00:00.0626833" startTime="2013-08-30T21:14:46.3413253+05:30" endTime="2013-08-30T21:14:46.6213197+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="093d1eb1-866a-496e-a38c-dfbf5b4231c4">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;9.75&gt;. Actual:&lt;9.25&gt;. </Message>
+          <StackTrace>   at TestFareCalculation.TravelTest.CalculateFareTest() in C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\TravelTest.cs:line 45
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

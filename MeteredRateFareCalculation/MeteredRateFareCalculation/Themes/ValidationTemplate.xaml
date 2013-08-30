@@ -1,0 +1,68 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!--<Style x:Key="myErrorTemplate" TargetType="Control" BasedOn="{StaticResource InputControlStyle}">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <DockPanel LastChildFill="True">
+                        <TextBlock DockPanel.Dock="Right" 
+                               Foreground="Red"
+                               FontSize="14pt" 
+                               Margin="-15,0,0,0" FontWeight="Bold">*
+                        </TextBlock>
+                        <Border BorderBrush="Red" BorderThickness="1">
+                            <AdornedElementPlaceholder Name="myControl"/>
+                        </Border>
+                    </DockPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip"
+                        Value="{Binding RelativeSource={x:Static RelativeSource.Self},
+                        Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBox" BasedOn="{StaticResource myErrorTemplate}" />-->
+
+
+    <Style x:Key="customErrorTemplate" TargetType="Control" BasedOn="{StaticResource InputControlStyle}">
+        <Setter Property="Validation.ErrorTemplate">
+            <Setter.Value>
+                <ControlTemplate>
+                    <DockPanel LastChildFill="True">
+                        <TextBlock DockPanel.Dock="Right"
+                                TextWrapping="WrapWithOverflow"
+								Foreground="Red"
+								Margin="5" 
+								FontSize="8pt"
+                                FontStyle="Oblique"
+								Text="{Binding ElementName=MyAdorner, 
+                                Path=AdornedElement.(Validation.Errors)[0].ErrorContent}">
+                        </TextBlock>
+                        <TextBlock DockPanel.Dock="Right" 
+                               Foreground="Red"
+                               FontSize="14pt" 
+                               Margin="-15,0,0,0" FontWeight="Bold">*
+                        </TextBlock>
+                        <Border BorderBrush="Red" BorderThickness="1">
+                            <AdornedElementPlaceholder Name="MyAdorner" />
+                        </Border>
+                    </DockPanel>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="Validation.HasError" Value="true">
+                <Setter Property="ToolTip"
+						Value="{Binding RelativeSource={RelativeSource Self}, 
+                       Path=(Validation.Errors)[0].ErrorContent}"/>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <Style TargetType="TextBox" BasedOn="{StaticResource customErrorTemplate}" />
+    <Style TargetType="DatePicker" BasedOn="{StaticResource customErrorTemplate}" />
+
+</ResourceDictionary>

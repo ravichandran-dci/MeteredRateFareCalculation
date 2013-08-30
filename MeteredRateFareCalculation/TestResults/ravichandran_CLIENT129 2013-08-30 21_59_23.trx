@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="34a5ee50-147e-452c-9061-9d9a541116aa" name="ravichandran@CLIENT129 2013-08-30 21:59:23" runUser="DOTCOM\ravichandran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="07735845-3824-4262-a179-579d3e1c1931">
+    <Deployment userDeploymentRoot="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="ravichandran_CLIENT129 2013-08-30 21_59_23">
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\MeteredRateFareCalculation\bin\Debug\MeteredRateFareCalculation.exe" />
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-30T21:59:23.4400903+05:30" queuing="2013-08-30T21:59:24.3750903+05:30" start="2013-08-30T21:59:24.5040903+05:30" finish="2013-08-30T21:59:39.3980903+05:30" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="2" executed="2" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TravelConstructorTest" storage="c:\users\ravichandran\documents\github\meteredratefarecalculation\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="eacb91a5-f34b-5507-175d-2b7e78472cd6">
+      <Execution id="385989de-94a9-4afe-b49f-eeea318d23d4" />
+      <TestMethod codeBase="C:/Users/ravichandran/Documents/GitHub/MeteredRateFareCalculation/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.TravelTest, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TravelConstructorTest" />
+    </UnitTest>
+    <UnitTest name="CalculateFareTest" storage="c:\users\ravichandran\documents\github\meteredratefarecalculation\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="87110abc-3daf-38f1-9ea0-6fc93f19d6a1">
+      <Execution id="4e64c133-644d-4fb4-a45d-fb9fc9f70911" />
+      <TestMethod codeBase="C:/Users/ravichandran/Documents/GitHub/MeteredRateFareCalculation/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.TravelTest, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateFareTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" executionId="4e64c133-644d-4fb4-a45d-fb9fc9f70911" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eacb91a5-f34b-5507-175d-2b7e78472cd6" executionId="385989de-94a9-4afe-b49f-eeea318d23d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e64c133-644d-4fb4-a45d-fb9fc9f70911" testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" testName="CalculateFareTest" computerName="CLIENT129" duration="00:00:00.1572234" startTime="2013-08-30T21:59:24.6340903+05:30" endTime="2013-08-30T21:59:25.7910903+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e64c133-644d-4fb4-a45d-fb9fc9f70911">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   at TestFareCalculation.TravelTest.CalculateFareTest() in C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\TravelTest.cs:line 46
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="385989de-94a9-4afe-b49f-eeea318d23d4" testId="eacb91a5-f34b-5507-175d-2b7e78472cd6" testName="TravelConstructorTest" computerName="CLIENT129" duration="00:00:13.4536051" startTime="2013-08-30T21:59:25.7970903+05:30" endTime="2013-08-30T21:59:39.2560903+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="385989de-94a9-4afe-b49f-eeea318d23d4">
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,4 @@
+C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll
+C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.pdb
+C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.dll
+C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\obj\Debug\FareCalculationLibrary.pdb

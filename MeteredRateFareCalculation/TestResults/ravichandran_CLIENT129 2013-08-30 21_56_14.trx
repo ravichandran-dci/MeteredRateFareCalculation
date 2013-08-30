@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eff77042-7037-440a-9de5-6ec0d414af5b" name="ravichandran@CLIENT129 2013-08-30 21:56:14" runUser="DOTCOM\ravichandran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="12febe7f-84a0-4716-ae30-b2a551dc99bd">
+    <Deployment runDeploymentRoot="ravichandran_CLIENT129 2013-08-30 21_56_14">
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\MeteredRateFareCalculation\bin\Debug\MeteredRateFareCalculation.exe" />
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-30T21:56:14.2980903+05:30" queuing="2013-08-30T21:56:14.4930903+05:30" start="2013-08-30T21:56:14.5110903+05:30" finish="2013-08-30T21:56:14.7820903+05:30" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="btnCalculate_ClickTest" storage="c:\users\ravichandran\documents\github\meteredratefarecalculation\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="8dd91947-0dac-9f85-02ab-6f2255278be7">
+      <DeploymentItems>
+        <DeploymentItem filename="MeteredRateFareCalculation.exe" />
+      </DeploymentItems>
+      <Execution id="78f04a49-368e-4559-9144-53b778d1d807" />
+      <TestMethod codeBase="C:/Users/ravichandran/Documents/GitHub/MeteredRateFareCalculation/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.FareCalculationTest, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="btnCalculate_ClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8dd91947-0dac-9f85-02ab-6f2255278be7" executionId="78f04a49-368e-4559-9144-53b778d1d807" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="78f04a49-368e-4559-9144-53b778d1d807" testId="8dd91947-0dac-9f85-02ab-6f2255278be7" testName="btnCalculate_ClickTest" computerName="CLIENT129" duration="00:00:00.0763217" startTime="2013-08-30T21:56:14.5410903+05:30" endTime="2013-08-30T21:56:14.7670903+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78f04a49-368e-4559-9144-53b778d1d807">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method TestFareCalculation.FareCalculationTest.btnCalculate_ClickTest threw exception: 
+System.Windows.Markup.XamlParseException: 'Provide value on 'System.Windows.StaticResourceExtension' threw an exception.' Line number '19' and line position '10'. ---&gt; System.Exception: Cannot find resource named 'SideLabelControlStyle'. Resource names are case sensitive.</Message>
+          <StackTrace>    at System.Windows.StaticResourceExtension.ProvideValueInternal(IServiceProvider serviceProvider, Boolean allowDeferredReference)
+   at System.Windows.StaticResourceExtension.ProvideValue(IServiceProvider serviceProvider)
+   at MS.Internal.Xaml.Runtime.ClrObjectRuntime.CallProvideValue(MarkupExtension me, IServiceProvider serviceProvider)
+ --- End of inner exception stack trace ---
+   at MeteredRateFareCalculation.FareCalculation_Accessor..ctor()
+   at TestFareCalculation.FareCalculationTest.btnCalculate_ClickTest() in C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestFareCalculation\FareCalculationTest.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

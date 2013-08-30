@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="e0e3f45c-0693-4e3c-8d33-b2c57238acc0" name="ravichandran@CLIENT129 2013-08-30 22:01:24" runUser="DOTCOM\ravichandran" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="6f1693a2-0d14-4049-8284-1e69ad03b549">
+    <Deployment userDeploymentRoot="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="ravichandran_CLIENT129 2013-08-30 22_01_24">
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\MeteredRateFareCalculation\bin\Debug\MeteredRateFareCalculation.exe" />
+      <DeploymentItem filename="C:\Users\ravichandran\Documents\GitHub\MeteredRateFareCalculation\MeteredRateFareCalculation\FareCalculationLibrary\bin\Debug\FareCalculationLibrary.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-08-30T22:01:24.6360903+05:30" queuing="2013-08-30T22:01:24.7040903+05:30" start="2013-08-30T22:01:24.7080903+05:30" finish="2013-08-30T22:01:24.8610903+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CalculateFareTest" storage="c:\users\ravichandran\documents\github\meteredratefarecalculation\meteredratefarecalculation\testfarecalculation\bin\debug\testfarecalculation.dll" id="87110abc-3daf-38f1-9ea0-6fc93f19d6a1">
+      <Execution id="8a987a9d-fee6-4b87-94f1-9848d9406c14" />
+      <TestMethod codeBase="C:/Users/ravichandran/Documents/GitHub/MeteredRateFareCalculation/MeteredRateFareCalculation/TestFareCalculation/bin/Debug/TestFareCalculation.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestFareCalculation.TravelTest, TestFareCalculation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateFareTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" executionId="8a987a9d-fee6-4b87-94f1-9848d9406c14" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="8a987a9d-fee6-4b87-94f1-9848d9406c14" testId="87110abc-3daf-38f1-9ea0-6fc93f19d6a1" testName="CalculateFareTest" computerName="CLIENT129" duration="00:00:00.0141326" startTime="2013-08-30T22:01:24.7110903+05:30" endTime="2013-08-30T22:01:24.8510903+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a987a9d-fee6-4b87-94f1-9848d9406c14">
+    </UnitTestResult>
+  </Results>
+</TestRun>
